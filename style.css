@@ -45,5 +45,47 @@ background-color: rgba(95, 255, 2, 0.658);
     font-size: 1.2rem;
 }
 
+.main_ul{
+    color: blue;
+}
+.item_a{
+    text-decoration: none;
+     font-size: 2rem;
+}
+.section_cards{
+    text-align: center;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.cards_card{
+    
+    gap: 1rem;
+    padding: .5rem;
+    border-radius: 15px;
+    background-color: rgb(140, 245, 70);
+    width: 275px;
+}
+.card_img{
+    border-radius: 15px;
+    width: 100%;
+}
+.card_title{
+    margin: 1rem 0;
+}
+.card_descripcion{
+    margin: 1rem 0;
 
+}
+.card_btn{
+    margin-bottom: 1rem;
+    border: none; 
+    background-color: blue; 
+    padding: .5rem; 
+    color: yellow; 
+    width: 70px;
+    border-radius: 15px;
+}
