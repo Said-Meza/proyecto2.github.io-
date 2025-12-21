@@ -3,25 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Modulo 2</title>
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header class="header ">
+      <nav class="header_nav container nav">
 
-    <header class="header">
-      <nav class="header_nav nav">
-        <h1 class="nav_title">BakAnime</h1>
-        <ul class="nav_ul">
-          <li class="nav_list_item"><a class="nav_a" href="#nosotros">Nosotros</a></li>
-          <li class="nav_list_item"><a class="nav_a" href="#contacto">Contacto</a></li>
-        </ul>
+        <h2 class="header_logo">BakAnime</h2>
+
+        
+
+        <div class="header_menu">
+
+          <label class="header_label" for="checkbox">
+              <figure class="header_figure">
+                <img class="header_img" src="img/icons8-menú.svg" alt="menu" />
+              </figure>
+           </label>
+
+          <input class="header_checkbox" type="checkbox" name="checkbox" id="checkbox" />
+          
+          <ul class="header_ul">
+            
+            <nav class="header_nav_list">
+
+              
+              <li class="header_list_item">
+                <a class="header_a" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="header_list_item">
+                <a class="header_a" href="#contacto">Contacto</a>
+              </li>
+            </nav>
+            
+          </ul>
+          
+        </div>
+
       </nav>
     </header>
 
-    <main class="main">
-
+    <!-- <main class="main">
       <article class="main_article">
         <p class="article_title">
           Disfruta de las mejores reseñas de los animes de la temporada de
@@ -29,25 +54,25 @@
         </p>
       </article>
 
-      
-
       <section class="main_section_cards">
-
         <h2 class="main_section_title">Mejores animes rankeados al momentos</h2>
         <ul class="main_ul">
           <li class="main_list_item">
-            <a class="item_a"
+            <a
+              class="item_a"
               href="https://www3.animeflv.net/anime/ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga"
               >Gakiaku</a
             >
           </li>
           <li class="main_list_item">
-            <a class="item_a" href="https://www3.animeflv.net/anime/one-punch-man-3"
+            <a
+              class="item_a"
+              href="https://www3.animeflv.net/anime/one-punch-man-3"
               >One puch man</a
             >
           </li>
           <li class="main_list_item">
-            <a class="item_a"  href="https://www3.animeflv.net/ver/gachiakuta-20"
+            <a class="item_a" href="https://www3.animeflv.net/ver/gachiakuta-20"
               >Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni
               Tsuyoi no da ga</a
             >
@@ -59,9 +84,9 @@
         <h2>Estrenos de la semana</h2>
 
         <section class="section_cards">
-
           <div class="cards_card">
-            <img class="card_img"
+            <img
+              class="card_img"
               src="https://www3.animeflv.net/uploads/animes/covers/4272.jpg"
               alt="Imagen de un pay de limon"
             />
@@ -72,43 +97,46 @@
           </div>
 
           <div class="cards_card">
-            <img class="card_img"
+            <img
+              class="card_img"
               src="https://www3.animeflv.net/uploads/animes/covers/4259.jpg"
               alt="Imagen de un pay de limon"
             />
-            <h3 class="card_title" >One puch man 3</h3>
-            <p class="card_descripcion" >Tercera temp. de One puch man</p>
+            <h3 class="card_title">One puch man 3</h3>
+            <p class="card_descripcion">Tercera temp. de One puch man</p>
 
-            <button class="card_btn" >Ver</button>
+            <button class="card_btn">Ver</button>
           </div>
 
           <div class="cards_card">
-            <img class="card_img"
+            <img
+              class="card_img"
               src="https://www3.animeflv.net/uploads/animes/covers/4266.jpg"
               alt="Imagen de un pay de limon"
             />
-            <h3 class="card_title" >One puch man 3</h3>
-            <p class="card_descripcion" >Tercera temp. de One puch man</p>
+            <h3 class="card_title">One puch man 3</h3>
+            <p class="card_descripcion">Tercera temp. de One puch man</p>
 
-            <button class="card_btn" >Ver</button>
+            <button class="card_btn">Ver</button>
           </div>
 
-          <div class="cards_card" >
-            <img class="card_img"
+          <div class="cards_card">
+            <img
+              class="card_img"
               src="https://www3.animeflv.net/uploads/animes/covers/4209.jpg"
               alt="Imagen de un pay de limon"
             />
-            <h3 class="card_title" >Gachiakuta</h3>
-            <p class="card_descripcion" >En una ciudad flotante donde los...</p>
+            <h3 class="card_title">Gachiakuta</h3>
+            <p class="card_descripcion">En una ciudad flotante donde los...</p>
 
-            <button class="card_btn" >Ver</button>
+            <button class="card_btn">Ver</button>
           </div>
         </section>
       </section>
     </main>
 
     <footer class="footer">
-      <section >
+      <section>
         <h2 id="contacto">Contacto o sugerencias, enviame un whats</h2>
 
         <form class="form" action="">
@@ -116,13 +144,13 @@
           <textarea placeholder="Pon tu sugerencia aqui y gracias"></textarea>
 
           <label for="">Correo:</label>
-          <input 
+          <input
             class="input_email"
             type="email"
             placeholder="Deja tu correo"
           />
 
-          <button class="btn_enviar" >Enviar</button>
+          <button class="btn_enviar">Enviar</button>
         </form>
       </section>
 
@@ -144,6 +172,6 @@
       </ul>
 
       <p>2025 BakAnime - Todos los derechos reservados</p>
-    </footer>
+    </footer> -->
   </body>
 </html>
