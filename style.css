@@ -89,3 +89,25 @@ background-color: rgba(95, 255, 2, 0.658);
     width: 70px;
     border-radius: 15px;
 }
+.footer{
+    width: 100%;
+    margin: 1rem auto;
+    background-color: rgba(95, 255, 2, 0.658);
+}
+
+.form{
+    display: flex; 
+    flex-direction: column; 
+    gap: .5rem; 
+    width: 50%; 
+    margin: 0 auto;
+}
+.input_email{
+    height: 1.5rem;
+}
+
+.btn_enviar{
+    width: 250px; 
+    margin: 0 auto; 
+    margin-top: 1rem;
+}
