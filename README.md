@@ -13,7 +13,6 @@ Incluye una **tabla de enlaces**, un **bento grid de noticias**, y un **footer c
 👉 **Repositorio:**  
 📦 https://github.com/Said-Meza/proyecto2.github.io-
 
-*(Reemplaza las URLs cuando publiques tu proyecto)*
 
 ---
 
