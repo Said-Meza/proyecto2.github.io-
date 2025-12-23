@@ -134,21 +134,23 @@ body {
 }
 
 .section1_card {
-    /* outline: auto; */
+
+    border: none;
     width: 340px;
     display: flex;
-    /* gap: .4rem; */
+
     cursor: pointer;
     border-radius: 10px;
-    /* overflow: hidden; */
+
     background-color: #dabef4;
     color: #3d1358;
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.08);
     transition: ease-in .2s;
-   
+
 }
 
 .section1_card:hover {
-   transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 .card_figure {
@@ -158,7 +160,7 @@ body {
 
 .card_img {
     display: block;
-   border-radius: 10px;
+    border-radius: 10px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -174,15 +176,17 @@ body {
     align-items: center;
 
 }
-.card_title{
+
+.card_title {
     font-size: 1rem;
     line-height: 1.3;
     margin: 0 0 8px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2; 
+    -webkit-line-clamp: 2;
 }
+
 .card_descripcion {
     display: none;
 }
@@ -340,7 +344,8 @@ body {
     padding: 3rem 1rem;
     /* margin-top: 3rem; */
 }
-.footer_contacto{
+
+.footer_contacto {
     max-width: 900px;
     margin: 0 auto;
 }
@@ -388,8 +393,9 @@ body {
     margin-top: 2rem;
     text-align: center;
 }
-.redes_title{
-    margin: 0 0  1rem 0;
+
+.redes_title {
+    margin: 0 0 1rem 0;
 }
 
 .footer_links {
