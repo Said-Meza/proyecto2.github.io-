@@ -299,10 +299,13 @@ body{
   box-shadow: 0 10px 25px rgba(0,0,0,0.4);
   cursor: pointer;
 }
-/* .footer{
+
+
+/* footer */
+.footer{
     width: 100%;
-    margin: 1rem auto;
-    background-color: rgba(95, 255, 2, 0.658);
+  
+    
 }
 
 .form{
@@ -320,4 +323,4 @@ body{
     width: 250px; 
     margin: 0 auto; 
     margin-top: 1rem;
-} */
+}
