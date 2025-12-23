@@ -302,25 +302,80 @@ body{
 
 
 /* footer */
-.footer{
-    width: 100%;
-  
-    
+.footer {
+  background-color: #2a0d3f;
+  color: #ffffff;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
 }
 
-.form{
-    display: flex; 
-    flex-direction: column; 
-    gap: .5rem; 
-    width: 50%; 
-    margin: 0 auto;
-}
-.input_email{
-    height: 1.5rem;
+.footer_title {
+  margin-bottom: 0.5rem;
 }
 
-.btn_enviar{
-    width: 250px; 
-    margin: 0 auto; 
-    margin-top: 1rem;
+.footer_text {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: #e0cfff;
+}
+
+/* Formulario */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form textarea,
+.form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.btn_enviar {
+  background-color: #6a2c91;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn_enviar:hover {
+  background-color: #7b4fa3;
+}
+
+
+.footer_redes {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer_links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer_links a {
+  color: #f2d7ff;
+  text-decoration: none;
+}
+
+.footer_links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+.footer_copy {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #d1b3ff;
 }
