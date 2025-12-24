@@ -112,6 +112,9 @@ body {
     color: white;
     max-width: 1200px;
 }
+.main_title{
+    margin: 1rem 0;
+}
 
 .section {
     margin: 2rem 0;
