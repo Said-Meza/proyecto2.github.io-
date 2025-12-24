@@ -343,7 +343,8 @@ body {
     background-color: #2a0d3f;
     color: #ffffff;
     padding: 3rem 1rem;
-    /* margin-top: 3rem; */
+    
+   
 }
 
 .footer_contacto {
@@ -534,42 +535,78 @@ body {
 
     /* cards */
 
-    
+
     .section1_card {
 
-   
-    width: 200px;
-    height:340px ;
-    display: flex;
+
+        width: 200px;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 10px;
+
+
+    }
+
+    .card_figure {
+        height: 65%;
+    }
+
+
+    .card_texts {
+
+        width: 100%;
+        height: 35%;
+        overflow: hidden;
+        padding: .1rem 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+
+    .footer{
+        display: grid;
+        grid-template-areas: "form form social social"
+                                "form form social social"
+                             "form form social social"
+                              "copy copy copy  copy" ;
+    }
+
+    .footer_contacto{
+        grid-area: form;
+    }
+    .footer_redes{
+        grid-area: social;
+    }
+    .footer_copy{
+        grid-area: copy;
+    }
+
+    .footer_links {
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 10px;
     
-
-}
-.card_figure {
-    height: 65%;
-}
-
-
-.card_texts {
-    
-    width: 100%;
-    height: 35%;
-    overflow: hidden;
-    padding: .1rem 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
 }
 
 
 
+}
 
+
+@media (width > 1023px) {
+
+
+     .footer{
+        grid-template-areas: "lateral form form social social "
+                             "lateral form form social social "
+                             "lateral form form social social "
+                             "copy copy copy copy  copy ";
+    }
 
 }
