@@ -322,17 +322,24 @@ body {
 .news_figure:hover {
     transform: scale(1.04);
 }
-
+.news_link:nth-child(9),
 .news_link:nth-child(1) {
     grid-column: span 2;
     grid-row: span 2;
 }
 
 .news_link:nth-child(2),
+.news_link:nth-child(6),
+.news_link:nth-child(10),
 .news_link:nth-child(4) {
     grid-column: span 1;
     grid-row: span 2;
 }
+.news_link:nth-child(13) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
 
 .news_link:hover .news_figure {
     transform: scale(1.04);
