@@ -112,7 +112,8 @@ body {
     color: white;
     max-width: 1200px;
 }
-.main_title{
+
+.main_title {
     margin: 1rem 0;
 }
 
@@ -322,6 +323,7 @@ body {
 .news_figure:hover {
     transform: scale(1.04);
 }
+
 .news_link:nth-child(9),
 .news_link:nth-child(1) {
     grid-column: span 2;
@@ -330,11 +332,13 @@ body {
 
 .news_link:nth-child(2),
 .news_link:nth-child(6),
+
 .news_link:nth-child(10),
 .news_link:nth-child(4) {
     grid-column: span 1;
     grid-row: span 2;
 }
+
 .news_link:nth-child(13) {
     grid-column: span 2;
     grid-row: span 1;
@@ -353,8 +357,8 @@ body {
     background-color: #2a0d3f;
     color: #ffffff;
     padding: 3rem 1rem;
-    
-   
+
+
 }
 
 .footer_contacto {
@@ -581,28 +585,30 @@ body {
     }
 
 
-    .footer{
+    .footer {
         display: grid;
         grid-template-areas: "form form social social"
-                                "form form social social"
-                             "form form social social"
-                              "copy copy copy  copy" ;
+            "form form social social"
+            "form form social social"
+            "copy copy copy  copy";
     }
 
-    .footer_contacto{
+    .footer_contacto {
         grid-area: form;
     }
-    .footer_redes{
+
+    .footer_redes {
         grid-area: social;
     }
-    .footer_copy{
+
+    .footer_copy {
         grid-area: copy;
     }
 
     .footer_links {
-    flex-direction: column;
-    
-}
+        flex-direction: column;
+
+    }
 
 
 
@@ -611,12 +617,37 @@ body {
 
 @media (width > 1023px) {
 
+    .news_link:nth-child(2) {
+        grid-column: span 1;
+        grid-row: span 3;
+    }
 
-     .footer{
+    .news_link:nth-child(9),
+    .news_link:nth-child(12),
+    .news_link:nth-child(7) {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+
+    .news_link:nth-child(10) {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .news_link:nth-child(11) {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .news_link:nth-child(13) {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+    .footer {
         grid-template-areas: "lateral form form social social "
-                             "lateral form form social social "
-                             "lateral form form social social "
-                             "copy copy copy copy copy ";
+            "lateral form form social social "
+            "lateral form form social social "
+            "copy copy copy copy copy ";
     }
 
 }
