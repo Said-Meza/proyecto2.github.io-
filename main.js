@@ -1,1 +1,6 @@
-console.log("hola desde consola de chrome")
+function hiddenmenu() {
+    
+    document.getElementById("checkbox").checked = false;
+
+}
+
