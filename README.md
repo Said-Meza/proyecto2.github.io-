@@ -1,7 +1,8 @@
 # 🎌 BakAnime
 
-Sitio web de temática **anime** con un diseño moderno y mobile-first.  
-Incluye una **tabla de enlaces**, un **bento grid de noticias**, y un **footer con formulario de contacto y redes sociales**.
+**BakAnime** es un sitio web de temática **anime** con un diseño moderno y enfoque **mobile-first**, pensado para ofrecer una experiencia visual atractiva y una navegación intuitiva en dispositivos móviles y de escritorio.
+
+El proyecto integra una **tabla de enlaces**, un **bento grid de noticias**, y un **footer interactivo** con formulario de contacto y enlaces a redes sociales, combinando diseño, interactividad y buenas prácticas de desarrollo web.
 
 ---
 
@@ -18,12 +19,24 @@ Incluye una **tabla de enlaces**, un **bento grid de noticias**, y un **footer c
 
 ## 📱 Características principales
 
-- ✅ **Mobile-first**
-- 🍱 **Bento Grid de noticias** con CSS Grid
-- 📰 Tarjetas de noticias **clickeables**
+- 📱 Mobile-first: diseño pensado primero para pantallas móviles
+
+- 🍱 Bento Grid de noticias usando CSS Grid
+
+- 📰 Tarjetas de noticias clickeables con efectos hover
+
 - 🖼️ Overlay con título sobre imágenes
-- 📊 Tabla estilizada con hover 
-- 🎨 Paleta oscura (morado)
+
+- 📊 Tabla estilizada con interacción hover
+
+- 🎨 Paleta oscura en tonos morados
+
 - 📩 Footer con formulario de sugerencias
+
 - 🔗 Enlaces a redes sociales
-- 🌊 waves como decoracion
+
+- 🌊 Decoraciones tipo waves para separación visual
+
+- ⬆️ Botón flotante “volver arriba” visible al hacer scroll
+
+- 🎯 Scroll suave para navegación interna
